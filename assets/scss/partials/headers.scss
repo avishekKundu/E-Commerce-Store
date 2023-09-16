@@ -1,0 +1,15 @@
+@import '../variables';
+
+.headContainer {
+    background-color: $primeColor;
+    color: $textColor;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 2px solid;
+    font-size: 32px;
+    font-family: $fontFamilyOne;
+}

@@ -1,0 +1,45 @@
+.productContainer {
+    border: 1px solid;
+    margin-top: 81px;
+    margin-left: 228px;
+    width: 1290px;
+    margin-bottom: 68px;
+}
+#product-list {
+    border: 0px solid;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px 17px;
+}
+
+.itemLists {
+    list-style-type: none;
+    margin: 10px 30px;
+    padding: 5px 10px;
+}
+
+.listContainer {
+    border: 2px solid;
+    height: auto;
+}
+
+.imgContent {
+    padding: 8px 18px;
+    &:hover {
+        box-shadow: 0 0 17px;
+        cursor: pointer;
+    }
+}
+
+.cardBody {
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: $fontFamilyThree;
+}
+
+.btnBuy:hover {
+    box-shadow: 0 0 20px;
+}

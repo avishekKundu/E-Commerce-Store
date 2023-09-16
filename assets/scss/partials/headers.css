@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.headContainer {
+  background-color: rgb(233, 241, 243);
+  color: rgb(12, 13, 13);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 2px solid;
+  font-size: 32px;
+  font-family: "Noto Sans KR", sans-serif;
+}/*# sourceMappingURL=headers.css.map */

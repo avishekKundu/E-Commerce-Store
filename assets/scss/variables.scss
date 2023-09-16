@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+$fontFamilyOne: 'Noto Sans KR', sans-serif;
+$fontFamilyTwo: 'Abel', sans-serif;
+$fontFamilyThree: 'Ubuntu', sans-serif;
+$borderRadius: 10px;
+
+$primeColor: rgb(233, 241, 243);
+$bgColor: rgba(184, 196, 199, 0.968);
+$textColor: rgb(12, 13, 13);
+
+$smallScreen: 640px;
+$mediumScreen: 1007px;
+$largeScreen: 1280px;
+

@@ -1,0 +1,23 @@
+@mixin box-shadow($value) {
+    box-shadow: $value;
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+}
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == small {
+        @media screen and (max-width: $smallScreen) {
+            @content;
+        }
+    }
+    @else if $breakpoint == medium {
+        @media screen  and (max-width: $mediumScreen) {
+            @content;
+        }
+    }
+    @else if $breakpoint == large {
+        @media screen  and (max-width: $largeScreen) {
+            @content;
+        }
+    }
+}

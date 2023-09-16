@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.headContainer {
+  background-color: rgb(233, 241, 243);
+  color: rgb(12, 13, 13);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 2px solid;
+  font-size: 32px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.productContainer {
+  border: 1px solid;
+  margin-top: 81px;
+  margin-left: 228px;
+  width: 1290px;
+  margin-bottom: 68px;
+}
+
+#product-list {
+  border: 0px solid;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px 17px;
+}
+
+.itemLists {
+  list-style-type: none;
+  margin: 10px 30px;
+  padding: 5px 10px;
+}
+
+.listContainer {
+  border: 2px solid;
+  height: auto;
+}
+
+.imgContent {
+  padding: 8px 18px;
+}
+.imgContent:hover {
+  box-shadow: 0 0 17px;
+  cursor: pointer;
+}
+
+.cardBody {
+  margin: 5px auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btnBuy:hover {
+  box-shadow: 0 0 20px;
+}
+
+.footContainer {
+  background-color: rgb(233, 241, 243);
+  color: rgb(12, 13, 13);
+  border-top: 2px solid;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 23px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.inputBody {
+  width: 15%;
+  height: 80%;
+  margin-top: 79px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 8px 10px;
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
+}
+
+.inputBody ul {
+  list-style-type: none;
+  padding: 15px;
+  height: 100%;
+}
+
+.inputBody li {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#minPrice,
+#maxPrice {
+  width: 140px;
+}
+
+.btn {
+  width: 90px;
+  color: white;
+  font-size: 20px;
+}
+.btn:hover {
+  box-shadow: 0 0 8px black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

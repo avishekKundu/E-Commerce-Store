@@ -1,0 +1,30 @@
+@import './scss/variables';
+@import './scss/partials/headers';
+@import './scss/partials/products';
+@import './scss/partials/footers';
+@import './scss/partials/sideBar';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@include responsive(small) {
+    .productContainer #product-list .itemLists {
+        width: calc(50% - 30px);
+    }
+}
+
+@include responsive(medium) {
+    .productContainer #product-list .itemLists {
+        width: calc(33.33% - 30px);
+    }
+}
+
+@include responsive(large) {
+    .productContainer #product-list .itemLists {
+        width: calc(25% - 30px);
+    }
+}
